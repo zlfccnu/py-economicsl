@@ -1,14 +1,14 @@
 from setuptools import setup, Extension
 
 
-setup(name='economicsl',
+setup(name='py_economicsl',
       version='0.2',
       description='Colorful blue ideas live hostilely',
       url='https://github.com/rht/economicsl',
       author='rhtbot',
       author_email='rhtbot@protonmail.com',
       license='MIT',
-      packages=['economicsl'],
+      packages=['py_economicsl'],
       # https://stackoverflow.com/questions/37471313/setup-requires-with-cython/38057196#38057196
       ext_modules=[
           Extension(
@@ -21,6 +21,6 @@ setup(name='economicsl',
       ],
       setup_requires=['setuptools>=18.0', 'cython'],
       package_data={
-          'economicsl': ['*.pxd'],
+          'py_economicsl': ['*.pxd'],
       },
       zip_safe=False)
