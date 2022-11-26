@@ -21,6 +21,6 @@ setup(name='py_economicsl',
       ],
       setup_requires=['setuptools>=18.0', 'cython'],
       package_data={
-          'py_economicsl': ['*.pxd'],
+          'economicsl': ['*.pxd'],
       },
       zip_safe=False)
