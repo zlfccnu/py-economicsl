@@ -8,7 +8,7 @@ setup(name='py_economicsl',
       author='rhtbot',
       author_email='rhtbot@protonmail.com',
       license='MIT',
-      packages=['py_economicsl'],
+      packages=['economicsl'],
       # https://stackoverflow.com/questions/37471313/setup-requires-with-cython/38057196#38057196
       ext_modules=[
           Extension(
